@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <!-- 导航 -->
+    <div class="m-top">导航</div>
+    <!-- 内容 -->
+    <div class="m-content">内容</div>
+    <!-- 主题 -->
+    <div class="m-aside">主题切换</div>
   </div>
 </template>
 
