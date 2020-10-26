@@ -2,6 +2,8 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import { init, init as themeInit } from './config/theme';
+init()
 
 Vue.config.productionTip = false
 
